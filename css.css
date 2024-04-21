@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f0f0; /* Light mode background color */
+    color: #000; /* Light mode text color */
+    transition: background-color 0.5s ease, color 0.5s ease; /* Smooth transition */
+  }
+  
+  body.dark-mode {
+    background-color: #222; /* Dark mode background color */
+    color: #fff; /* Dark mode text color */
+  }
+  .button {
+    background-color: #ffffff; /* Green background color */
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.8s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .button:hover {
+    color: white;
+    background-color: #000000; /* Change background color on hover */
+  }
+  
+  .image{
+  
+      padding: 0; /* Remove any default padding */
+      margin: 0; /* Remove any default margin */
+
+  }
+  .button1 {
+    background-color: #ffffff; /* Green background color */
+    color: rgb(0, 0, 0); /* White text color */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: black;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+  }
